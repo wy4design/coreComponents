@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons Component</title>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Buttons Component</h1>
+
+        <h2>Primary Button</h2>
+
+        <div class="container">
+            <button class="box" id="save1">Save</button>
+            <button class="box" id="save2">Save</button>
+            <button class="box" id="save3">Save</button>
+            <button class="box" id="save4">Save</button>
+        </div>
+
+        <h2>Secondary Button</h2>
+        <div class="container">
+            <button class="box" id="edit1">Edit</button>
+            <button class="box" id="edit2">Edit</button>
+            <button class="box" id="edit3">Edit</button>
+            <button class="box" id="edit4">Edit</button>
+        </div>
+        
+        <h2>Accent Button</h2>
+        <div class="container">
+
+            <button type="button" class="box3" id="accent1">Google <span class="accent-url">mail.google.com</span>
+            </button>
+            <button type="button" class="box3" id="accent2">Google <span class="accent-url">mail.google.com</span>
+            </button>
+            <button type="button" class="box3" id="accent3">Google <span class="accent-url">mail.google.com</span>
+            </button>
+            <button type="button" class="box3" id="accent4">Google <span class="accent-url">mail.google.com</span>
+            </button>
+        </div>
+        <br>
+        <br>
+        <br>
+
+    <h1>Card Component</h1>    
+        <div class="card"> 
+            <h3>DAILY WEBSITES</h3>
+                <p>Sites you check every morning. Pick some or choose your own:</p>
+                <div class="card-container">
+                    <button class="cardbox">Google</button>
+                    <button class="cardbox">Google</button>
+                    <button class="cardbox">Google</button>
+                    <button class="cardbox">Google</button>
+                </div>
+        </div>
+
+    <h1>Forms Component</h1>    
+    <div id="form-box">
+        <div class="form">  
+            <p>Edit Link</p>
+                <form action="" method="get" class="form-example">
+                    <div class="form-example">
+                        <label for="name">Name: </label>
+                    </div>
+                        <input type="text" name="name" id="name" required placeholder="Gmail"/>
+                    <div class="form-example">
+                        <label for="url">URL: </label>
+                    </div>
+                        <input type="url" name="url" id="url" required placeholder="mail.google.com" pattern="https://.*"/>
+
+                    <div class="form-example">
+                        <label for="section">Section: </label>    
+                    </div>
+                        <input type="text" name="section" id="section" required placeholder="Dashboard"/>
+                    <div class="form-buttons">
+                        <button class="form-save">Save</button> 
+                        <button class="form-cancel">Cancel</button>
+                    </div>
+                    
+                </form>
+        </div>
+    </div>
+
+    <h1>Date Form Component</h1>       
+        <div class="date-form">
+            <div>
+                <label for="date">Add Date:</label>
+            </div>
+            <input type="date" name="date" id="date" placeholder="mm/dd/yyyy"/>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+</body>
+</html>

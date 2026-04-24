@@ -1,0 +1,438 @@
+:root {
+    --primary-default-background: #FDFEE9;
+    --primary-border:#EAF300 ;
+    --primary-hover-background: #FAFF90;
+    --primary-active-background: #CAD207;
+    --primary-active-border: #CAD207;
+    --primary-disabled-background: #F7F8F8;
+    --primary-disabled-border: #D9DAB9;
+    --primary-disabled-text: #B3B3B3;
+    --secondary-default-background: #fff;
+    --secondary-default-border:#E3E3E5 ;
+    --secondary-border:#C8C8D2 ;
+    --secondary-hover-background: #F7F7F8;
+    --secondary-active: #C8C8D2;
+    --secondary-disabled-background: #F5F5F5;
+    --secondary-disabled-border: #E3E3E5;
+    --secondary-disbabled-text:#C8C8D2 ;
+    --button-text-color: #323239;
+    --accent-default-background: #FDFEE9;
+    --accent-border:#EAF300;
+    --accent-hover:#FCFFC8 ;
+    --accent-active: #FAFF90;
+    --accent-disabled:#F7F8F8 ;
+    --accent-disabled-border:#D9DAB9 ;
+    --accent-disabled-text: #9090A1;
+    --card-button:#fff;
+    --card-button-border: #E3E3E5;
+    --card-button-text: #6B6A6F;
+    --card-background: #F7F7F7;
+    --card-border: #E2E2E4;
+    
+
+
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 12px;
+}
+
+.box{
+    width: 139px;
+    height: 72px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    line-height: 72px;
+    border-radius: 12px;
+    background-color: #EAF300;   
+}
+/* Primary buttons start here
+*/
+
+#save1{
+    background-color: var(--primary-default-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--primary-border);
+    color: var(--button-text-color);
+}
+
+#save2{
+    background-color: var(--primary-hover-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--primary-border);
+    color: var(--button-text-color);
+}
+
+#save3{
+    background-color: var(--primary-active-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--primary-active-border);
+    color: var(--button-text-color);
+}
+
+
+#save4{
+    background-color: var(--primary-disabled-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--primary-disabled-border);
+    color: var(--primary-disabled-text);
+}
+
+/* Secondary Buttons start here
+*/
+
+
+#edit1{
+    background-color: var(--secondary-default-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--secondary-default-border);
+    color: var(--button-text-color);
+}
+
+#edit2{
+    background-color: var(--secondary-hover-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--secondary-border);
+    color: var(--button-text-color);
+}
+
+#edit3{
+    background-color: var(--secondary-active);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--secondary-active);
+    color: var(--button-text-color);
+}
+
+
+#edit4{
+    background-color: var(--secondary-disabled-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--secondary-disabled-border);
+    color: var(--secondary-disbabled-text);
+}
+
+/* Accent Buttons start here
+*/
+
+.box3{
+    display: flex;
+    width: 380px;
+    height: 120px;
+    padding: 20px 23px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    font-family: Anuphan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.accent-url{
+    color: #9090A1;
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+#accent1{
+    background-color: var(--accent-default-background);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--accent-border);
+    color: var(--accent-text-color);
+}
+
+#accent2{
+    background-color: var(--accent-hover);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--accent-border);
+    color: var(--button-text-color);
+}
+
+#accent3{
+    background-color: var(--accent-active);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--accent-border);
+    color: var(--button-text-color);
+}
+
+
+#accent4{
+    background-color: var(--accent-disabled);
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: var(--accent-disabled-border);
+    color: var(--accent-disabled-text);
+}
+
+/* Card Component start here
+*/
+
+.card{
+    display: flex;
+    width: 958px;
+    padding: 62px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border: 3px solid;
+    border-color: var(--card-border);
+    background: var(--card-background);
+}
+
+.card-container{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 8px;
+}
+
+.card h3{
+    color: #939298;
+    font-family: Anuphan;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 36.4px */
+    letter-spacing: 2.08px;
+    margin: 0px;
+}
+
+.card p{
+    color: #939298;
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 20px 0px;
+}
+
+.cardbox{
+    background-color: var(--card-button);
+    border-radius: 4px;
+    border: 3px solid;
+    border-color: var(--card-button-border);
+    color: var(--card-button-text);
+    display: flex;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+
+/* Forms Component start here
+*/
+
+#form-box{
+    width: 730px;
+    height: 760px;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: #E2E2E4;
+    background: #FFF;
+    display: flex;
+    width: 850px;
+    padding: 41px 60px;
+    flex-direction: column;
+}
+
+.form{
+    width: 730px;
+    height: 628px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.form p{
+    color: #000;
+    font-family: Anuphan;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+}
+
+.form-example{
+    color: #323239;
+    font-family: Anuphan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+#name{
+    display: flex;
+    width: 730px;
+    padding: 20px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 39px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #E2E2E4;
+    color: #323239;
+    font-family: Anuphan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin: 0px 0px 38px 0px;
+}
+
+#url{
+    display: flex;
+    width: 730px;
+    padding: 20px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 39px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #E2E2E4;
+    color: #323239;
+    font-family: Anuphan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin: 0px 0px 38px 0px;
+}
+
+#section{
+    display: flex;
+    width: 730px;
+    padding: 20px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 39px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #E2E2E4;
+    color: #323239;
+    font-family: Anuphan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin: 0px 0px 76px 0px;
+}
+
+.form-save{
+    display: flex;
+    padding: 18px 38px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px solid #EAF300;
+    background: #FDFEE9;
+    color: #323239;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.form-cancel{
+    display: flex;
+    padding: 18px 38px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px solid #E3E3E5;
+    background: #FFF;
+    color: #323239;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+.form-buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+
+/* Date Form start here
+*/
+
+.date-form{
+    display: flex;
+    width: 730px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: #323239;
+    font-family: Anuphan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+        
+}
+
+#date{
+    display: flex;
+    width: 728px;
+    padding: 20px 36px;
+    align-items: center;
+    gap: 448px;
+    border-radius: 4px;
+    border: 2px solid #E2E2E4;
+    color: #323239;
+    text-align: center;
+    font-family: Anuphan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 42px */
+    letter-spacing: 1.2px;
+        
+}
+
+
